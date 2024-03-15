@@ -1,0 +1,87 @@
+class laptop:
+    price=""
+    processor=""
+    ram=""
+hp=laptop()
+dell=laptop()
+lenovo=laptop()
+
+hp.price=50000
+hp.processor="i5"
+hp.ram="8gb"
+
+dell.price=60000
+dell.processor="i7"
+dell.ram="4gb"
+
+print(hp.price)
+print(dell.price)
+print(hp.processor)
+
+print("student")
+class student:
+    def __init__(self):
+        self.name=" "
+        self.regno=" "
+    def display(self):
+        print("name:",self.name)
+        print("regno",self.regno)
+
+s1=student()
+s2=student()
+
+s1.name="abi"
+s1.regno=234
+
+s2.name="thiyagu"
+s2.regno=123
+
+print(s1.name)
+print(s1.regno)
+print(s2.name)
+print(s2.regno)
+s1.display()
+s2.display()
+print("==fruitclass example==")
+class fruit:
+    def __init__(self,a):
+        self.color=a
+apple=fruit("red")
+print(apple.color)
+print("==teacher==")
+class teacher:
+    def __init__(self,name,regno):
+        self.name=name
+        self.regno=regno
+    def display(self):
+        print("name:",self.name)
+        print("regno:",self.regno)
+t1=teacher("abi",1)
+t2=teacher("priya",2)
+t1.display()
+t2.display()
+print("==calculator==")
+class calculator:
+    def __init__(self,a,b):
+        self.num1=a
+        self.num2=b
+    def add(self):
+        print("addition",self.num1+self.num2)
+    def sub(self):
+        print("sub",self.num1-self.num2)
+    def mul(self):
+        print("mul",self.num1*self.num2)
+    def div(self):
+        print('div',self.num1/self.num2)
+obj=calculator(10,2)
+obj.add()
+obj2=calculator(10,2)
+obj2.sub()
+obj3=calculator(10,2)
+obj3.mul()
+obj4=calculator(10,2)
+obj4.div()
+
+
+
+

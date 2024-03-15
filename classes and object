@@ -1,0 +1,23 @@
+#class is set of function and variable
+#object is soul of class
+class goa:
+     name=""
+     drink=""
+     def party(self):
+         print("lets party")
+     def beach(self):
+        print("njoy the beach view")
+ramesh=goa()
+suresh=goa()
+ramesh.name="ramesh"
+suresh.name="suresh"
+
+ramesh.drink="yes"
+suresh.drink="no"
+print(ramesh.name)
+print("drink",ramesh.drink)
+ramesh.party()
+
+print(suresh.name)
+print("drink",suresh.drink)
+suresh.beach()
